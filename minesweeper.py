@@ -55,6 +55,7 @@ for r in range(dimensions[0]):
             temp.append(mineCount(arr1,r,s,dimensions[0],dimensions[1]))
     answer.append(temp)
 # Printing the answer in an appropriate manner
+print("This is the result of the first test")
 for i in range(len(answer)):
     print(answer[i])
 
@@ -70,5 +71,6 @@ for r in range(dimensions2[0]):
             temp.append(mineCount(arr2,r,s,dimensions2[0],dimensions2[1]))
     answer.append(temp)
 # Printing the answer in an appropriate manner
+print("This is the result for the second test")
 for i in range(len(answer)):
     print(answer[i])
